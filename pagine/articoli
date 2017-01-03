@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>InCube</title>
+        <meta name="description" content="InCube official page">
+        <meta name="author" content="Alessandro Zanolla">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/moseisley.css" rel="stylesheet">
+        <link href="css/st-genpage.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+ 
+    </head>
+    
+    <body id="page-top">
+        
+        <!--Navbar-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Header della navbar con page-scroll -->
+                <div class="navbar-header page-scroll">
+                    <!-- Pulsante per versione mobile -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <!-- Tre barrette -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Logo o nome del sito  -->
+                    <a class="navbar-brand page-scroll" href="#page-top">InCube</a>
+                </div>
+                <!-- Link, form, etc -->
+                <div class="collapse navbar-collapse" id=".navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>    
+                        </li>
+                        <li class="">
+                        
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#servizi">Servizi</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll"
+                            href="#News"> News</a>
+                        </li>
+                        <li>
+                            <a class="active" //rende attiva e mantiene la consistenza
+                            href="#Contatti"> Contatti</a>
+                        </li>
+                        <li>
+                            <form class="navbar-form" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Cerca nel sito">
+                                </div>
+                                <button type="submit" class="btn btn-default">Cerca</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!--header-->
+        <header>
+            <div class="container">
+                <div class="intro-text">
+                    <div><h2>Gli articoli più recenti, scritti dal nostro Team</h2></div>
+                </div>
+            </div>
+        </header>
+        
+        <!--breadcrumbs-->
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li class="active">Articoli</li>
+        </ol> 
+        
+        <!--corpo-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                        <h2>Articoli</h2>
+                </div>
+            </div>
+            <!--linea di separazione-->
+            <hr align=”left” size=”1″ width=”300″ color=”red” noshade>
+            <div class="row">
+                            <div class="col-sm-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><link><a href="articolo1.html">Articolo 1</a>
+                                    </div>
+                                    <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquet dui. Maecenas imperdiet odio maximus tincidunt sagittis. Nam nec pulvinar nunc, sit amet accumsan ipsum. Quisque ornare magna at iaculis tristique.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="col-sm-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><link><a href="#articolo2">Articolo 2</a></h3>
+                                </div>
+                                <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquet dui. Maecenas imperdiet odio maximus tincidunt sagittis. Nam nec pulvinar nunc, sit amet accumsan ipsum. Quisque ornare magna at iaculis tristique.</p>
+                                </div>
+                            </div>
+                    </div>
+                            <div class="col-sm-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                    <h3 class="panel-title"><link><a href="#articolo3">Articolo 3</a></h3>
+                                    </div>
+                                    <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquet dui. Maecenas imperdiet odio maximus tincidunt sagittis. Nam nec pulvinar nunc, sit amet accumsan ipsum. Quisque ornare magna at iaculis tristique.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-sm-3 hidden-xs">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Social tags</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            <h1>Tag1</h1> <h4>Tag2</h4> <h3>Tag3</h3> <h1>Tag4</h1> <h3>Tag5</h3> <h5>Tag6</h5> <h3> Tag7</h3> <h3>Tag8</h3><h1> Tag9</h1> <h4>Tag10</h4> 
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+            <div class="row">
+                    <div class="col-sm-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><link><a href="#articolo4">Articolo 4</a>
+                                    </div>
+                                    <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquet dui. Maecenas imperdiet odio maximus tincidunt sagittis. Nam nec pulvinar nunc, sit amet accumsan ipsum. Quisque ornare magna at iaculis tristique.</p>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="col-sm-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><link><a href="#articolo5">Articolo 5</a></h3>
+                                </div>
+                                <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquet dui. Maecenas imperdiet odio maximus tincidunt sagittis. Nam nec pulvinar nunc, sit amet accumsan ipsum. Quisque ornare magna at iaculis tristique.</p>
+                                </div>
+                            </div>
+                    </div>
+                            <div class="col-sm-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                    <h3 class="panel-title"><link><a href="#articolo6">Articolo 6</a></h3>
+                                    </div>
+                                    <div class="panel-body">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id aliquet dui. Maecenas imperdiet odio maximus tincidunt sagittis. Nam nec pulvinar nunc, sit amet accumsan ipsum. Quisque ornare magna at iaculis tristique.</p>
+                                    </div>
+                                </div>
+                            </div>   
+            </div>
+        </div>
+        <!--footer-->
+        <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-4">
+                      <span class="copyright">Copyright © InCube - Ethan Mascottes</span>
+                  </div>
+                  <div class="col-sm-4 col-sm-push-6">
+                      <ul class="list-inline quicklinks">
+                          <li><a href="#sitemap">Mappa del sito</a></li>
+                          <li><a href="#page-top">Cima</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/scrolling-nav.js"></script>
