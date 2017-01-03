@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/incube.css">
     <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Titolo -->
     <title>Prototipo di sito incubatore d'impresa</title>
 </head>
@@ -30,10 +32,10 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- Logo e nome del sito  -->
-                    <a class="navbar-brand page-scroll" href="#page-top">
+                    <a class="navbar-brand" href="#page-top">
                         <img src= "img/logo_small.png" alt="InCube Inc." height="42" width="42"> 
                     </a>
-                    <a class="navbar-brand page-scroll" href="#page-top">
+                    <a class="navbar-brand" href="#page-top">
                         InCube Inc.                    
                     </a>
                     
@@ -42,8 +44,9 @@
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Cerchi qualcosa?">
                             </div>
-                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                            <button type="submit" class="btn btn-default">Cerca</button>
+                            <a class="navbar-default" href="#">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                            </a>
                         </form>
                     </div>
                 </div>
@@ -120,7 +123,7 @@
             <!-- MENU DI NAVIGAZIONE-->
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-
+                    
                     <!-- Chi Siamo -->
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Chi Siamo<span
                             class="caret"></span></a>
@@ -368,32 +371,29 @@
                     <a class="btn btn-block btn-social btn-facebook">
                         <span class="fa fa-facebook"></span> Seguici su Facebook
                     </a>
+                    <br><br>
                     <a class="btn btn-block btn-social btn-twitter">
                         <span class="fa fa-twitter"></span> Seguici su Twitter
                     </a>
+                    <br><br>
                     <a class="btn btn-block btn-social btn-instagram">
                         <span class="fa fa-Instagram"></span> Seguici su Instagram
                     </a>
               </div>
               
               
-              <div class="col-sm-4" align="center">
-               <!-- Mappa del sito-->
-                <div class="form-group">
-                    <label class="col-xs-9 control-label" for="link"><a href="#">Mappa del sito</a></label>
-                </div>
-                <!-- Credits -->
-                <div class="form-group">
-                    <label class="col-xs-9 control-label" for="link"><a href="#">Credits</a></label>
-                </div>
-                <!-- Privacy -->
-                <div class="form-group">
-                   <h2 class="section-heading"><label class="col-xs-9 control-label" for="link"><a href="#">Privacy</a></label></h2>
-                </div>
+              <div class="col-sm-3" align="center">
+                    <!-- Mappa del sito-->
+                  <br><br>
+                  <a class="links" href="#">Mappa del sito</a>
+                  <br>
+                  <a class="links" href="#page-top">Credits</a>
+                  <br>
+                  <a class="links" href="#page-top">Privacy</a>
               </div>
               
               
-              <div class="col-sm-4">
+              <div class="col-sm-5">
                     <fieldset>
                         <!-- nome -->
                         <div class="form-group">
