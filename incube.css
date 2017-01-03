@@ -1,0 +1,314 @@
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+ 
+a {
+    color: #7ce644;
+    font-size: 12px;
+}
+
+h1,h2,h3,
+h4,h5 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar-default {
+    border-color: transparent; /* bordo trasparente... */
+    background-color: #222; /* ..e sfondo nero */
+}
+ 
+.navbar-default .navbar-brand {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    color: #959494; 
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase; 
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 400; 
+    letter-spacing: 1px; 
+    color: #959494; 
+    font-size: 10.5px;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02); /* colore quasi trasparente */
+    overflow:hidden;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #7ce644;
+    background-color: #7ce644;
+}
+ 
+.navbar-default .navbar-toggle .icon-bar { /* icone */
+    background-color: #fff;
+} 
+ 
+.navbar-default .navbar-nav>.active>a { /* link attivo */
+    border-radius: 0;
+    color: #fff;
+    background-color: #3fa00c;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus { /* elementi a destra */
+    color: #7ce644;
+}
+ 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active { /* elementi a sinistra */
+    color: #7ce644;
+}
+ 
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3fa00c;
+}
+ 
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #4ec112;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: background .3s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .3s ease-in-out,padding .5s ease-in-out;
+        transition: background .3s ease-in-out,padding .5s ease-in-out;
+    }
+ 
+    .navbar-default .navbar-brand {
+        font-size: 18px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+ 
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+ 
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+ 
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+<script src="js/scrolling-nav.js"></script>
+
+.gerarchia-livello-2{
+    padding-left: 50px;
+}
+
+.gerarchia-livello-3{
+    padding-left: 100px;
+}
+
+
+.carousel {
+  margin-bottom: -60px;
+}
+ 
+ .carousel-caption {
+    z-index: 10;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 1920px) {
+ 
+    .carousel-caption h1 {
+      font-size: 120px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 20px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+ 
+@media (max-width: 1280px) {
+ 
+    .carousel-caption h1 {
+      font-size: 80px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 12px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+ 
+@media (max-width: 1024px) {
+ 
+    .carousel-caption h1 {
+      font-size: 60px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 11px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+ 
+     .carousel-caption {
+         margin-bottom: 6%;
+    }
+    .carousel-caption h1 {
+      font-size: 40px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 12px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+ 
+@media (max-width: 700px) {
+    .carousel-caption {
+      z-index: 10;
+      margin-bottom: 10px;
+    }
+ 
+    .carousel-caption h1 {
+      display: none;
+    }
+ 
+    .carousel-caption p {
+      font-size: 12px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+ 
+@media (max-width: 500px) {
+    .carousel-caption {
+      z-index: 10;
+      margin-bottom: 8px;
+    }
+ 
+    .carousel-caption h1 {
+      display: none;
+    }
+ 
+    .carousel-caption p {
+      font-size: 10px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+
+@media (max-width: 310px) {
+    
+    .carousel-caption {
+      z-index: 10;
+      margin-bottom: 8px;
+    }
+ 
+    .carousel-caption h1 {
+      display: none;
+    }
+ 
+    .carousel-caption p {
+      font-size: 8px;
+    }
+    
+    .featurette { /* Classe da modificare */
+        text-align: center;
+    }
+}
+
+section {
+    padding: 110px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+ 
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+    
+@media (max-width: 768px) {
+    .marketing { 
+        display: none;
+    }
+}
+
+.image-bg-fixed-height {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url(../img/full.jpg) no-repeat center center scroll;
+    padding: 100px 0;
+}
+
+footer span.copyright {
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #3fa00c;
+}
+ 
+::selection {
+    text-shadow: none;
+    background: #3fa00cS;
+}
+ 
+img::selection {
+    background: 0 0;
+}
+ 
+img::-moz-selection {
+    background: 0 0;
+}
+
+}
