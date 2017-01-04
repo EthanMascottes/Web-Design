@@ -20,6 +20,31 @@ h4,h5 {
     font-weight: 700;
 }
 
+.gerarchia-livello-2{
+    padding-left: 50px;
+}
+
+.gerarchia-livello-3{
+    padding-left: 100px;
+}
+
+#nameclient, #mailaddress, #fieldmessage {
+    padding: 25px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#buttonsubmit, #buttonsubmit:hover {
+    background-color: #0296ce;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+#buttonsubmit:active {
+    background-color: #32b6ee;
+}
+
+
 .navbar-default {
     border-color: transparent; /* bordo trasparente... */
     background-color: #222; /* ..e sfondo nero */
