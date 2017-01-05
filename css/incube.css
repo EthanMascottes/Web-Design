@@ -9,8 +9,8 @@ p {
 }
  
 a {
-    color: #7ce644;
-    font-size: 14px;
+    color: #21b93e;
+    font-size: 16px;
 }
 
 h1,h2,h3,
@@ -20,39 +20,14 @@ h4,h5 {
     font-weight: 700;
 }
 
-.gerarchia-livello-2{
-    padding-left: 50px;
-}
-
-.gerarchia-livello-3{
-    padding-left: 100px;
-}
-
-#nameclient, #mailaddress, #fieldmessage {
-    padding: 25px;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-#buttonsubmit, #buttonsubmit:hover {
-    background-color: #0296ce;
-    border: transparent;
-    text-transform: uppercase;
-}
-
-#buttonsubmit:active {
-    background-color: #32b6ee;
-}
-
-
 .navbar-default {
     border-color: transparent; /* bordo trasparente... */
-    background-color: #222; /* ..e sfondo nero */
+    background-color: floralwhite;
 }
  
 .navbar-default .navbar-brand {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    color: #959494;
+    color: #21b93e;
 }
 
 .navbar-default .nav li a {
@@ -60,7 +35,7 @@ h4,h5 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-weight: 400; 
     letter-spacing: 1px; 
-    color: #959494; 
+    color: #21b93e; 
     font-size: 14px;
 }
 
@@ -70,8 +45,8 @@ h4,h5 {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #7ce644;
-    background-color: #7ce644;
+    border-color: #21b93e;
+    background-color: #21b93e;
 }
  
 .navbar-default .navbar-toggle .icon-bar { /* icone */
@@ -81,30 +56,30 @@ h4,h5 {
 .navbar-default .navbar-nav>.active>a { /* link attivo */
     border-radius: 0;
     color: #fff;
-    background-color: #3fa00c;
+    background-color: #fed136;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus { /* elementi a destra */
-    color: #7ce644;
+    color: #0e5800;
 }
  
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active { /* elementi a sinistra */
-    color: #7ce644;
+    color: #0e5800;
 }
  
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #3fa00c;
+    background-color: #6cf766;
 }
  
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #4ec112;
+    background-color: #6cf766;
 }
 
 @media(min-width:768px) {
@@ -149,132 +124,53 @@ h4,h5 {
 }
 
 
-.carousel {
-  margin-bottom: -60px;
-}
- 
- .carousel-caption {
-    z-index: 10;
-    margin-bottom: 10%;
-}
-
 @media (max-width: 1920px) {
- 
-    .carousel-caption h1 {
-      font-size: 120px;
-    }
- 
-    .carousel-caption p {
-      font-size: 20px;
-    }
     
-    .featurette { /* Classe da modificare */
+    .featurette {
         text-align: center;
     }
 }
  
 @media (max-width: 1280px) {
- 
-    .carousel-caption h1 {
-      font-size: 80px;
-    }
- 
-    .carousel-caption p {
-      font-size: 12px;
-    }
     
-    .featurette { /* Classe da modificare */
+    .featurette {
         text-align: center;
     }
 }
  
 @media (max-width: 1024px) {
- 
-    .carousel-caption h1 {
-      font-size: 60px;
-    }
- 
-    .carousel-caption p {
-      font-size: 11px;
-    }
+
     
-    .featurette { /* Classe da modificare */
+    .featurette {
         text-align: center;
     }
 }
 
 @media (max-width: 800px) {
  
-     .carousel-caption {
-         margin-bottom: 6%;
-    }
-    .carousel-caption h1 {
-      font-size: 40px;
-    }
- 
-    .carousel-caption p {
-      font-size: 12px;
-    }
     
-    .featurette { /* Classe da modificare */
+    .featurette {
         text-align: center;
     }
 }
  
 @media (max-width: 700px) {
-    .carousel-caption {
-      z-index: 10;
-      margin-bottom: 10px;
-    }
- 
-    .carousel-caption h1 {
-      display: none;
-    }
- 
-    .carousel-caption p {
-      font-size: 12px;
-    }
-    
-    .featurette { /* Classe da modificare */
+
+    .featurette {
         text-align: center;
     }
 }
  
 @media (max-width: 500px) {
-    .carousel-caption {
-      z-index: 10;
-      margin-bottom: 8px;
-    }
- 
-    .carousel-caption h1 {
-      display: none;
-    }
- 
-    .carousel-caption p {
-      font-size: 10px;
-    }
     
-    .featurette { /* Classe da modificare */
+    .featurette {
         text-align: center;
     }
 }
 
 @media (max-width: 310px) {
     
-    .carousel-caption {
-      z-index: 10;
-      margin-bottom: 8px;
-    }
- 
-    .carousel-caption h1 {
-      display: none;
-    }
- 
-    .carousel-caption p {
-      font-size: 8px;
-    }
-    
-    .featurette { /* Classe da modificare */
+    .featurette {
         text-align: center;
     }
 }
@@ -297,19 +193,13 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
-    
-@media (max-width: 768px) {
-    .marketing { 
-        display: none;
-    }
-}
 
 .image-bg-fixed-height {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background: url(../img/full.jpg) no-repeat center center scroll;
+    background: url(../img/full.png) no-repeat center center scroll;
     padding: 100px 0;
 }
 
@@ -322,12 +212,12 @@ footer a.links {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #3fa00c;
+    background: #6cf766;
 }
  
 ::selection {
     text-shadow: none;
-    background: #3fa00cS;
+    background: #6cf766;
 }
  
 img::selection {
