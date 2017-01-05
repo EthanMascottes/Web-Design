@@ -34,7 +34,7 @@ h4,h5 {
     text-transform: uppercase; 
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-weight: 400; 
-    letter-spacing: 1px; 
+    letter-spacing: 0.3px; 
     color: #21b93e; 
     font-size: 14px;
 }
@@ -136,6 +136,7 @@ h4,h5 {
     .featurette {
         text-align: center;
     }
+    
 }
  
 @media (max-width: 1024px) {
@@ -148,7 +149,7 @@ h4,h5 {
 
 @media (max-width: 800px) {
  
-    
+
     .featurette {
         text-align: center;
     }
