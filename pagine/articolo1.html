@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="it">
-
-<!-- Meta e CSS -->
-<head>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Prototipo di incubatore di impresa 'InCube', come esempio di sito per l'esercitazione del corso di Web Design">
-    <meta name="author" content="EthanMascottes">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/incube.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <!-- SCRIPT -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Titolo -->
-    <title>Gerarchia</title>
-</head>
-
-<body>
-
-    <nav class="navbar navbar-default ">
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description"
+              content="Prototipo di incubatore di impresa 'InCube', come esempio di sito per l'esercitazione del corso di Web Design">
+        <meta name="author" content="EthanMascottes">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/incube.css">
+        <link rel="stylesheet" href="css/st-genpage.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <!-- SCRIPT -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Titolo -->
+        <title>Articolo 1</title>
+ 
+    </head>
+    
+    <body id="page-top">
+        <nav class="navbar navbar-default ">
             <div class="container">
                 <div class="navbar-header page-scroll">
                     <!-- Nome del sito  -->
@@ -116,7 +115,7 @@
             </div>
 
             <!-- MENU DI NAVIGAZIONE-->
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
                     
                     <!-- Chi Siamo -->
@@ -135,8 +134,8 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Incubazione<span
                             class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Obiettivi</a></li>
-                            <li><a href="#">Aziende nel Cube</a></li>
+                            <li><a href="pagine/alloggi.html">Obiettivi</a></li>
+                            <li><a href="pagine/alloggi/hotel.html">Aziende nel Cube</a></li>
                             <li><a href="#">CUBE Mentors</a></li>
                             <li><a href="#">Tariffe</a></li>
                             <li><a href="#">Proponi la tua Startup</a></li>
@@ -156,7 +155,7 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Servizi<span
                             class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Startup</a></li>
+                            <li><a href="pagine/attivita.html">Startup</a></li>
                             <li><a href="#">Imprese</a></li>
                             <li><a href="#">Formazione</a></li>
                             <li><a href="#">Strumenti Finanziari</a></li>
@@ -177,88 +176,69 @@
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News<span
                             class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="articoli.html">Articoli</a></li>
+                            <li><a href="#">Articoli</a></li>
                             <li><a href="#">Newsletter</a></li>
                         </ul>
                     </li>
                     
                     <!-- Contatti -->
                     <li><a href="contatti.html" >Contatti</a></li>
-
+                    
                     <!-- Blog -->
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span
                             class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Storie di successo</a></li>
+                            <li><a href="pagine/eventi.html">Storie di successo</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- Path -->
-    <div class="row">
-        <div class="col-lg-12">
-            <ol class="breadcrumb">
-                <li><a href="home.html">Home</a></li>
-                <li class="active">Gerarchia Del Sito</li>
-            </ol>
+        
+        <!--breadcrumbs-->
+        <ol class="breadcrumb">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="articoli.html">Articoli</a></li>
+            <li class="active">Articolo 1</li>
+        </ol> 
+        
+        <!--corpo-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <h2>Titolo Articolo 1</h2>
+                </div>
+            </div>
+            <hr align=”left” size=”1″ width=”300″ color=”red” noshade>
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Scritto da: Tizio</h3>
+                                        </div>
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                        Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.
+                                        Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.
+                                        Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.
+                                        </div>
+                    </div>
+                </div>
+                    <div class="col-sm-3 hidden-xs">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Social tags</h3>
+                            </div>
+                            <div class="panel-body">
+                                <h1>Tag1</h1> <h4>Tag2</h4> <h3>Tag3</h3> <h1>Tag4</h1> <h3>Tag5</h3> <h5>Tag6</h5> <h3> Tag7</h3> <h3>Tag8</h3><h1> Tag9</h1> <h4>Tag10</h4> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-    </div>
-
-
-    <!-- Gerarchia Del Sito Web INQUBE -->
-    <div class="container">
-        <div class="row">
-
-            <a class="gerarchia-livello-1" href="../home.html">Homepage</a><br><br>
-
-            <a class="gerarchia-livello-2" href="#">Chi Siamo</a><br>
-            <a class="gerarchia-livello-3" href="#">CUBE</a><br>
-            <a class="gerarchia-livello-3" href="#">Mission</a><br>
-            <a class="gerarchia-livello-3" href="#">Team</a><br>
-            <a class="gerarchia-livello-3" href="#">Collaborazioni</a><br>
-            <a class="gerarchia-livello-3" href="#">FAQ</a><br><br>
-
-            <a class="gerarchia-livello-2" href="#">Incubazione</a><br>
-            <a class="gerarchia-livello-3" href="#">Obiettivi</a><br>
-            <a class="gerarchia-livello-3" href="#">Aziende nel CUBE</a><br>
-            <a class="gerarchia-livello-3" href="#">Cube Mentors</a><br>
-            <a class="gerarchia-livello-3" href="#">Tariffe</a><br>
-            <a class="gerarchia-livello-3" href="#">Proponi La Tua Startup</a><br><br>
-
-            <a class="gerarchia-livello-2" href="#">Area Riservata</a><br>
-            <a class="gerarchia-livello-3" href="#">Account Personale</a><br>
-            <a class="gerarchia-livello-3" href="#">La Mia Startup</a><br><br>
-            
-            <a class="gerarchia-livello-2" href="servizi.html">Servizi</a><br>
-            <a class="gerarchia-livello-3" href="#">Startup</a><br>
-            <a class="gerarchia-livello-3" href="#">Imprese</a><br>
-            <a class="gerarchia-livello-3" href="#">Formazione</a><br>
-            <a class="gerarchia-livello-3" href="#">Strumenti Finanziari</a><br>
-            <a class="gerarchia-livello-3" href="#">Spazi Lavorativi</a><br><br>
-
-            <a class="gerarchia-livello-2" href="#">Eventi</a><br>
-            <a class="gerarchia-livello-3" href="eventi/calendario.html">Calendario</a><br>
-            <a class="gerarchia-livello-3" href="eventi/conferenze.html">Conferenze</a><br><br>
-
-            <a class="gerarchia-livello-2" href="#">News</a><br>
-            <a class="gerarchia-livello-3" href="#">Articoli</a><br>
-            <a class="gerarchia-livello-3" href="#">Newsletter</a><br><br>
-
-            <a class="gerarchia-livello-2" href="#">Blog</a><br>
-            <a class="gerarchia-livello-3" href="#">Storie Di Successo</a><br><br>
-
-
-            <a class="gerarchia-livello-2" href="contatti.html">Contatti</a><br>
-            <a class="gerarchia-livello-2" href="gerarchia.html">Gerarchia Del Sito</a><br><br>
-        </div>
-    </div>
-    
-    <br>
-    <hr class="featurette-divider">
-    
+        <br><br>
+        
     <!-- footer, social, link utili, etc -->
     <footer>
       <div class="container">
@@ -275,9 +255,6 @@
                     <a class="btn btn-block btn-social btn-instagram">
                         <span class="fa fa-Instagram"></span> Seguici su Instagram
                     </a>
-                    <br><br><br>
-                    <p class="pull-right"><a href="#">Top</a></p>
-                    <p>© 2017, Ethan Mascottes</p>
               </div>
               
               
@@ -330,5 +307,3 @@
       </div>
     </footer>
     <br>
-
-</body>	
