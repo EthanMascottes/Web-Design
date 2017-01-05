@@ -99,7 +99,7 @@ h4,h5 {
         transition: all .3s;
     }
  
-    .navbar-default .navbar-nav>.active>a {
+    .navbar-default .navbar-nav.active {
         border-radius: 3px;
     }
  
@@ -113,7 +113,6 @@ h4,h5 {
     }
 }
 
-<script src="js/scrolling-nav.js"></script>
 
 .gerarchia-livello-2{
     padding-left: 50px;
