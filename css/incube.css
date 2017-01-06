@@ -20,6 +20,13 @@ h4,h5 {
     font-weight: 700;
 }
 
+.center{
+
+	text-align:center;
+
+}
+
+
 .navbar-default {
     border-color: transparent; /* bordo trasparente... */
     background-color: floralwhite;
